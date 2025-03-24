@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: nginx-rollout
 spec:
-  replicas: 10
+  replicas: 20
   selector:
     matchLabels:
       app: nginx
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: arm64v8/nginx
+        image: docker pull arm64v8/nginx:1.26-perl
         ports:
         - containerPort: 80
   strategy:
