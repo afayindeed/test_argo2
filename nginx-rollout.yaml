@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker pull arm64v8/nginx:1.26-perl
+        image: arm64v8/nginx:1.26-perl
         ports:
         - containerPort: 80
   strategy:
