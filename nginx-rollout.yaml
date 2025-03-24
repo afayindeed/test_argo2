@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: arm64v8/nginx:1.26-perl
+        image: arm64v8/nginx:stable-bookworm-otel
         ports:
         - containerPort: 80
   strategy:
