@@ -4,8 +4,6 @@ metadata:
   creationTimestamp: "2025-03-24T10:29:39Z"
   name: nginx-service
   namespace: default
-  resourceVersion: "927"
-  uid: 37853501-f825-445b-ad6c-3b897af87eed
 spec:
   clusterIP: 10.110.170.46
   clusterIPs:
